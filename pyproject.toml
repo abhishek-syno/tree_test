@@ -1,0 +1,16 @@
+[project]
+name = "tree-counts-open-source"
+version = "0.1.0"
+description = "Real-time tree detection and counting system using YOLOv11 for forestry, environmental monitoring, and urban planning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "seaborn>=0.13.2",
+    "ultralytics>=8.3.161",
+]
+license = { text = "MIT" }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
